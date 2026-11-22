@@ -1,0 +1,39 @@
+{
+  "corpus": "tinyshakespeare",
+  "tokenizer": "bpe",
+  "vocab_size": 4096,
+  "train_tokens": 307607,
+  "val_tokens": 38425,
+  "parameters": 1334016,
+  "config": {
+    "vocab_size": 4096,
+    "ctx_len": 128,
+    "d": 128,
+    "n_layers": 4,
+    "n_heads": 4,
+    "dropout": 0.1,
+    "bias": true,
+    "flash": false
+  },
+  "iters": 2000,
+  "batch_size": 16,
+  "grad_accum": 1,
+  "tokens_seen": 4096000,
+  "epochs_over_train_set": 13.315691775544769,
+  "hardware": "CPU (Intel64 Family 6 Model 78 Stepping 3, GenuineIntel, 4 threads)",
+  "wall_clock_minutes": 23.172286681334178,
+  "initial_val_loss": 8.318586972554526,
+  "best_iter": 1999,
+  "final_val_loss": 4.696660016377767,
+  "final_val_ppl": 109.58056327196006,
+  "final_val_bits_per_token": 6.7758481143696825,
+  "sample_prompt": "ROMEO:",
+  "sample": "ROMEO:\nBaabock so; let him be the queen is off.\n\nFirst Servingman:\nI have't: I; let me good brother: I can do you well\nI'll call your love you.\n\nFirst Citizen:\nFor, madam, sir; come, and with me so.\n\nDUKE VINCENTIO:\nATH:\nI would be your highness, a word.\n\nLEONTES:\nI'll answer it.\n\nCLARENCE:\nThou know it?\n\nDUKE VINCENTIO:\nI have seen.\n\nISABELLA:\nI have but thou wilt tell me?\n\nCAMILLO:\nI will she, goodly, 'tis well done.\n\nCORIOLANUS:\nI'll not not.\n\nISABELLA:\nYou must not, he is a very good.\n\nCORIOLANUS:\nWhat, my lord.\n\nMENENIUS:\nNo!\nCome:\nI do well; but I will not so?\n",
+  "hyperparams": {
+    "lr": 0.0006,
+    "min_lr": 6e-05,
+    "warmup": 100,
+    "wd": 0.1,
+    "clip": 1.0
+  }
+}

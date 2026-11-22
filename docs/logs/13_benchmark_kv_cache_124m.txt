@@ -1,0 +1,8 @@
+model: 124,439,808 params, L=12, d=768, ctx=1024
+prompt 16 tokens, generating 200 greedy tokens on cpu
+identical output   : True
+without cache      :  96.16 s  (    2.1 tok/s)
+with KV-cache      :  13.16 s  (   15.2 tok/s)
+speed-up           : 7.31x
+cache at T=215: measured 15,851,520 bytes (fp32) = formula 2*L*T*d*4 = 15,851,520
+GPT-2 small, T=1024, fp16: 37,748,736 bytes (~38 MB)

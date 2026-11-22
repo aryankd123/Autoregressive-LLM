@@ -1,0 +1,12 @@
+
+test_part7_generation.py
+  PASS  test_cached_logits_equal_full_forward  (0.05s)
+  PASS  test_greedy_generation_identical_with_and_without_cache  (0.22s)
+  PASS  test_kv_cache_hand_computed_example  (0.00s)
+  PASS  test_kv_cache_memory  (0.01s)
+  PASS  test_sampling_identical_with_same_seed  (0.09s)
+  PASS  test_temperature_examples  (0.00s)
+  PASS  test_top_k_example  (0.00s)
+  PASS  test_top_p_example  (0.00s)
+
+8 passed, 0 failed

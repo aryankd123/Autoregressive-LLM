@@ -1,0 +1,39 @@
+{
+  "corpus": "tinyshakespeare",
+  "tokenizer": "gpt2",
+  "vocab_size": 50257,
+  "train_tokens": 301966,
+  "val_tokens": 36059,
+  "parameters": 7242624,
+  "config": {
+    "vocab_size": 50257,
+    "ctx_len": 128,
+    "d": 128,
+    "n_layers": 4,
+    "n_heads": 4,
+    "dropout": 0.1,
+    "bias": true,
+    "flash": false
+  },
+  "iters": 2000,
+  "batch_size": 16,
+  "grad_accum": 1,
+  "tokens_seen": 4096000,
+  "epochs_over_train_set": 13.56444102978481,
+  "hardware": "CPU (Intel64 Family 6 Model 78 Stepping 3, GenuineIntel, 4 threads)",
+  "wall_clock_minutes": 153.33606470425923,
+  "initial_val_loss": 10.838399900660397,
+  "best_iter": 1999,
+  "final_val_loss": 4.8430049801212185,
+  "final_val_ppl": 126.84996119353735,
+  "final_val_bits_per_token": 6.986979267821435,
+  "sample_prompt": "ROMEO:",
+  "sample": "ROMEO:\nNo, I must have a little than a better!\n\nESCALUS:\nO, madam, sir, then, sir, so with a month,\nWith a thousand days at the law are not\nfreto I was his tongue; and his way\nBut to our voices, and we will not all,\nThe news of your tongue should have\nWhen I have heard it.\n\nFirst Murderer:\nAnd we have you now in a time,\nAnd I will not for you,--\n\nLEONTES:\nI beseech you have more.\n\nCAPULET:\nA:\nSir, you shall I do not:\nThat I would not your brother'st.\n\nDUCHESS OF YORK:\nIn this is true, I had been a man\nI never but for the gods\nIs it too much of mine own.\n\nCATESBY:\nWe should; no",
+  "hyperparams": {
+    "lr": 0.0006,
+    "min_lr": 6e-05,
+    "warmup": 100,
+    "wd": 0.1,
+    "clip": 1.0
+  }
+}

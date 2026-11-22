@@ -1,0 +1,9 @@
+
+test_part4_multihead.py
+  PASS  test_flash_path_equals_explicit_math  (0.01s)
+  PASS  test_multihead_hand_computed_example  (0.00s)
+  PASS  test_parameter_count  (0.03s)
+  PASS  test_past_cannot_see_the_future  (0.01s)
+  PASS  test_reshape_splits_columns_into_heads  (0.00s)
+
+5 passed, 0 failed

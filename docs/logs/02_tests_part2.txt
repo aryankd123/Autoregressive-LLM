@@ -1,0 +1,9 @@
+
+test_part2_embeddings.py
+  PASS  test_gpt2_parameter_counts  (0.00s)
+  PASS  test_gradient_scatter_adds_into_used_rows  (0.00s)
+  PASS  test_hand_computed_example  (0.00s)
+  PASS  test_lookup_equals_one_hot_matmul  (0.00s)
+  PASS  test_start_pos_offsets_positions  (0.00s)
+
+5 passed, 0 failed

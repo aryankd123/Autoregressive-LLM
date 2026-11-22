@@ -1,0 +1,39 @@
+{
+  "corpus": "verdict",
+  "tokenizer": "gpt2",
+  "vocab_size": 50257,
+  "train_tokens": 4612,
+  "val_tokens": 534,
+  "parameters": 7242624,
+  "config": {
+    "vocab_size": 50257,
+    "ctx_len": 128,
+    "d": 128,
+    "n_layers": 4,
+    "n_heads": 4,
+    "dropout": 0.1,
+    "bias": true,
+    "flash": false
+  },
+  "iters": 200,
+  "batch_size": 4,
+  "grad_accum": 1,
+  "tokens_seen": 102400,
+  "epochs_over_train_set": 22.20294882914137,
+  "hardware": "CPU (Intel64 Family 6 Model 78 Stepping 3, GenuineIntel, 4 threads)",
+  "wall_clock_minutes": 3.3746880809466044,
+  "initial_val_loss": 10.839641571044922,
+  "best_iter": 199,
+  "final_val_loss": 6.191808223724365,
+  "final_val_ppl": 488.7290391470993,
+  "final_val_bits_per_token": 8.932891018502643,
+  "sample_prompt": "ROMEO:",
+  "sample": "ROMEO:\"\" G I it.\n\"\"!\nI--\n\nI he up I, my G my Mrs.-- he had the-- in a him a I had that and, he was at the of it was the last I with I was his I had on his my--. to that of a me\n\n\n\n\n\n\n\n\"I had heburn, and had with \" it Jack, he had the picture.\n\"\"\n\n\"_.\n\n\n\n\n my had at you,-- I, I a me.\n\n\n\n\"\"\"\" on on the the a by a his. I in the it, he I on his up my that I was of the's said, the he was at the meburn,, her to to the't one't, had to the the eyes,. It was\n\n\n his, and-- ofisburn., he with had and's I me.; his",
+  "hyperparams": {
+    "lr": 0.0006,
+    "min_lr": 6e-05,
+    "warmup": 100,
+    "wd": 0.1,
+    "clip": 1.0
+  }
+}

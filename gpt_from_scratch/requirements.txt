@@ -1,0 +1,8 @@
+torch>=2.0
+tiktoken>=0.5
+numpy
+matplotlib
+# optional
+regex          # exact GPT-2 pre-tokenisation pattern (\p{L}); a stdlib fallback is used otherwise
+pytest
+transformers   # only for load_gpt2.py

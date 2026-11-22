@@ -1,0 +1,53 @@
+downloading verdict -> data\verdict.txt
+device: CPU (Intel64 Family 6 Model 78 Stepping 3, GenuineIntel, 4 threads)
+corpus: verdict | tokenizer: gpt2 (V=50,257) | train tokens 4,612 | val tokens 534
+model: 7,242,624 parameters | GPTConfig(vocab_size=50257, ctx_len=128, d=128, n_layers=4, n_heads=4, dropout=0.1, bias=True, flash=False)
+initial val loss 10.840  (ln V = 10.825)
+it     0 | loss 10.839 | lr 6.00e-06 | gnorm 2.89 | 455 tok/s
+           val loss 10.837 | val ppl 50883.00
+           sample: 'ROMEO: spit Choated predicatedanted tweaking Atlantis fandom receiversennesettfemin ForumsInstead reality lifelong GarciaPutinAudio respects lawmakers ALE Embassy Minimum colle eagle leadership Typham'
+it    50 | loss 9.170 | lr 3.06e-04 | gnorm 1.36 | 764 tok/s
+           val loss 9.280 | val ppl 10718.61
+           sample: 'ROMEO:his . face all. say-- had. was his \' no the eyes G histhe portrait he as eyes--, he a me",:the br been It by such,\'s she pleased. The The face- only. Mrs you me. allas,- ..." he no'
+it   100 | loss 6.162 | lr 6.00e-04 | gnorm 1.30 | 715 tok/s
+           val loss 6.665 | val ppl 784.82
+           sample: 'ROMEO:-\n. ". I.\n all in me", the I so say it I was his.;, I.! a the of. . the it up..\n\'t on that that\n you ", I the his on up--.. it of he had a my'
+it   150 | loss 5.373 | lr 3.30e-04 | gnorm 1.30 | 535 tok/s
+           val loss 6.283 | val ppl 535.14
+           sample: 'ROMEO: if,"I had my I have one- with a.\n a a so to theburn of, up up"I had_."\n\n you."". with him\n St on. TheII in my-- was in a in-- that it up he not the.\n'
+it   199 | loss 5.118 | lr 6.01e-05 | gnorm 1.33 | 526 tok/s
+           val loss 6.192 | val ppl 488.73
+           sample: 'ROMEO:,, and he had I was the, you, the; but a, of the\'s as it.\n\n\n\n G G, on."\n""\n\n"\n\n" a the the eyes.\n\n\n\n\n""\'t on a, at the the a'
+
+final val loss 6.192 | val ppl 488.73 | 3.4 min
+sample:
+ROMEO:"" G I it.
+""!
+I--
+
+I he up I, my G my Mrs.-- he had the-- in a him a I had that and, he was at the of it was the last I with I was his I had on his my--. to that of a me
+
+
+
+
+
+
+
+"I had heburn, and had with " it Jack, he had the picture.
+""
+
+"_.
+
+
+
+
+ my had at you,-- I, I a me.
+
+
+
+"""" on on the the a by a his. I in the it, he I on his up my that I was of the's said, the he was at the meburn,, her to to the't one't, had to the the eyes,. It was
+
+
+ his, and-- ofisburn., he with had and's I me.; his
+
+wrote runs/smoke/summary.json, log.csv, loss_curve.png, best.pt, last.pt

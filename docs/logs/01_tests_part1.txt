@@ -1,0 +1,14 @@
+
+test_part1_tokenizer.py
+  PASS  test_byte_bpe_fast_trainer_equals_naive_trainer  (0.01s)
+  PASS  test_byte_bpe_roundtrip_and_special_token  (0.01s)
+  PASS  test_byte_bpe_save_load  (0.07s)
+  PASS  test_dataset_label_is_input_shifted_by_one  (4.41s)
+  PASS  test_gpt2_vocab_size_arithmetic  (0.00s)
+  PASS  test_perplexity_examples  (0.03s)
+  PASS  test_pretokenize_loses_nothing  (0.00s)
+  PASS  test_toy_bpe_encodes_unseen_word  (0.00s)
+  PASS  test_toy_bpe_pair_counts_match_hand_computed  (0.00s)
+  PASS  test_toy_bpe_six_merges_match_hand_computed  (0.00s)
+
+10 passed, 0 failed

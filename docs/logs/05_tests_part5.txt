@@ -1,0 +1,13 @@
+
+test_part5_model.py
+  PASS  test_full_gpt2_model_has_124_439_808_parameters  (3.87s)
+  PASS  test_gelu_values  (0.00s)
+  PASS  test_layernorm_backward_numeric_check  (1.37s)
+  PASS  test_layernorm_hand_computed_example  (0.00s)
+  PASS  test_layernorm_matches_pytorch  (0.00s)
+  PASS  test_model_is_causal  (0.02s)
+  PASS  test_parameter_table_matches_hand_count  (0.00s)
+  PASS  test_residual_gives_identity_jacobian_path  (0.00s)
+  PASS  test_shapes_and_initial_loss_near_ln_V  (0.39s)
+
+9 passed, 0 failed

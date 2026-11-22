@@ -1,0 +1,100 @@
+downloading tinyshakespeare -> data\tinyshakespeare.txt
+device: CPU (Intel64 Family 6 Model 78 Stepping 3, GenuineIntel, 4 threads)
+corpus: tinyshakespeare | tokenizer: gpt2 (V=50,257) | train tokens 301,966 | val tokens 36,059
+model: 7,242,624 parameters | GPTConfig(vocab_size=50257, ctx_len=128, d=128, n_layers=4, n_heads=4, dropout=0.1, bias=True, flash=False)
+initial val loss 10.838  (ln V = 10.825)
+it     0 | loss 10.835 | lr 6.00e-06 | gnorm 2.87 | 156 tok/s
+           val loss 10.833 | val ppl 50669.93
+           sample: 'ROMEO: offerings quantity immune jellyated pan Investig Mueller elicit chill Quantity ripeodkacmdpace Und Fill inspiring\u2665 purseImprove Sac reunion player unit unitGroundmineisbury Navalventional stun '
+it    50 | loss 9.258 | lr 3.06e-04 | gnorm 1.57 | 363 tok/s
+it   100 | loss 6.637 | lr 6.00e-04 | gnorm 1.46 | 451 tok/s
+it   150 | loss 5.988 | lr 5.99e-04 | gnorm 0.96 | 494 tok/s
+it   200 | loss 5.580 | lr 5.96e-04 | gnorm 0.97 | 533 tok/s
+it   250 | loss 5.213 | lr 5.92e-04 | gnorm 0.90 | 544 tok/s
+           val loss 5.554 | val ppl 258.34
+           sample: "ROMEO:\nAnd him.\n\nAnd;\nIUS:\nThis, you,\n\nA:\n\nA:\nAnd, I not thou be all her that in her my lord, not the the house.\nMy time' the house.\nBut I am my lord\nWe"
+it   300 | loss 5.105 | lr 5.85e-04 | gnorm 0.74 | 571 tok/s
+it   350 | loss 4.915 | lr 5.77e-04 | gnorm 0.86 | 592 tok/s
+it   400 | loss 4.620 | lr 5.67e-04 | gnorm 0.93 | 613 tok/s
+it   450 | loss 4.912 | lr 5.56e-04 | gnorm 1.08 | 621 tok/s
+it   500 | loss 5.095 | lr 5.43e-04 | gnorm 0.93 | 635 tok/s
+           val loss 5.193 | val ppl 180.03
+           sample: "ROMEO:\nIOLANUS:\nIUS:\nI have not be but I should be thee to thee:\nFor now have we have this,\nTo be their man.\nA:\n\nNay, the daughter's so much, and I am you speak: let me,"
+it   550 | loss 4.660 | lr 5.29e-04 | gnorm 1.15 | 604 tok/s
+it   600 | loss 4.396 | lr 5.13e-04 | gnorm 0.83 | 592 tok/s
+it   650 | loss 4.594 | lr 4.96e-04 | gnorm 0.99 | 581 tok/s
+it   700 | loss 4.535 | lr 4.78e-04 | gnorm 0.83 | 573 tok/s
+it   750 | loss 4.408 | lr 4.59e-04 | gnorm 0.96 | 566 tok/s
+           val loss 5.065 | val ppl 158.42
+           sample: "ROMEO:\nHORTENSIO:\nI may, sir, good\nThat what you, for love, no more and my hand,\nThe other's good'st, like a heart,\nTo do you,\nAs I'll be much a king it to myself,\nThat if"
+it   800 | loss 4.529 | lr 4.38e-04 | gnorm 1.18 | 556 tok/s
+it   850 | loss 4.331 | lr 4.18e-04 | gnorm 1.26 | 551 tok/s
+it   900 | loss 4.560 | lr 3.96e-04 | gnorm 1.11 | 546 tok/s
+it   950 | loss 4.154 | lr 3.74e-04 | gnorm 1.43 | 542 tok/s
+it  1000 | loss 4.455 | lr 3.52e-04 | gnorm 1.04 | 539 tok/s
+           val loss 4.948 | val ppl 140.85
+           sample: 'ROMEO:\nThe love with a hand of good good.\n\nFirst Citizen:\nO, you, so.\n\n\nQUEEN ELIZABELLA:\nI am I am a good?\n\nFirst Gentleman:\nAy, like to-morrow?\n\nLADY'
+it  1050 | loss 4.172 | lr 3.30e-04 | gnorm 1.08 | 533 tok/s
+it  1100 | loss 4.125 | lr 3.08e-04 | gnorm 0.99 | 531 tok/s
+it  1150 | loss 4.320 | lr 2.86e-04 | gnorm 1.30 | 528 tok/s
+it  1200 | loss 4.075 | lr 2.64e-04 | gnorm 1.12 | 526 tok/s
+it  1250 | loss 4.047 | lr 2.42e-04 | gnorm 1.13 | 524 tok/s
+           val loss 4.907 | val ppl 135.25
+           sample: "ROMEO:\nI, here, you, thou will know not to be done.\n\nQUEEN MARGARET:\nIUS:\nI'll to be my lord.\n\nKING RICHARD III:\nAnd I say, thou not thy blood:\nIf more is not"
+it  1300 | loss 4.088 | lr 2.22e-04 | gnorm 1.32 | 520 tok/s
+it  1350 | loss 4.376 | lr 2.01e-04 | gnorm 1.13 | 518 tok/s
+it  1400 | loss 4.063 | lr 1.82e-04 | gnorm 1.24 | 517 tok/s
+it  1450 | loss 4.199 | lr 1.64e-04 | gnorm 1.08 | 515 tok/s
+it  1500 | loss 3.962 | lr 1.47e-04 | gnorm 1.10 | 514 tok/s
+           val loss 4.861 | val ppl 129.18
+           sample: 'ROMEO:\nMy lord, a man, that is a son,\nThat I, not make a prince.\n\nSASTINGS:\nI do I had but, be a word:\nAnd, you have my father!\n\nHORTENSIO:\nHere in my lord, let'
+it  1550 | loss 4.113 | lr 1.31e-04 | gnorm 1.30 | 511 tok/s
+it  1600 | loss 4.094 | lr 1.17e-04 | gnorm 1.26 | 510 tok/s
+it  1650 | loss 4.041 | lr 1.04e-04 | gnorm 1.10 | 509 tok/s
+it  1700 | loss 3.797 | lr 9.25e-05 | gnorm 1.27 | 509 tok/s
+it  1750 | loss 4.185 | lr 8.27e-05 | gnorm 1.30 | 508 tok/s
+           val loss 4.853 | val ppl 128.15
+           sample: "ROMEO:\nI were I did not not be my lord;\nAs thou hast thou, but thy head.\n\nROMEO:\nAy, sir, I will not, I have said\nThat'st in the blood'st that,\nAnd tell thy father'st?\n\nKING"
+it  1800 | loss 3.999 | lr 7.46e-05 | gnorm 1.12 | 505 tok/s
+it  1850 | loss 4.294 | lr 6.83e-05 | gnorm 1.23 | 504 tok/s
+it  1900 | loss 4.377 | lr 6.37e-05 | gnorm 1.41 | 504 tok/s
+it  1950 | loss 3.829 | lr 6.09e-05 | gnorm 1.11 | 503 tok/s
+it  1999 | loss 4.156 | lr 6.00e-05 | gnorm 1.29 | 446 tok/s
+           val loss 4.843 | val ppl 126.85
+           sample: 'ROMEO:\nHere comes the good.\n\nGLOUCESTER:\nAy, good, as a poor brotherly death of Norfolk.\n\nQUEEN MARGARET:\nTo-morrow, thou didst thou art too well:\nAnd now, which be not,\n'
+
+final val loss 4.843 | val ppl 126.85 | 153.3 min
+sample:
+ROMEO:
+No, I must have a little than a better!
+
+ESCALUS:
+O, madam, sir, then, sir, so with a month,
+With a thousand days at the law are not
+freto I was his tongue; and his way
+But to our voices, and we will not all,
+The news of your tongue should have
+When I have heard it.
+
+First Murderer:
+And we have you now in a time,
+And I will not for you,--
+
+LEONTES:
+I beseech you have more.
+
+CAPULET:
+A:
+Sir, you shall I do not:
+That I would not your brother'st.
+
+DUCHESS OF YORK:
+In this is true, I had been a man
+I never but for the gods
+Is it too much of mine own.
+
+CATESBY:
+We should; no
+
+wrote runs/tiny/summary.json, log.csv, loss_curve.png, best.pt, last.pt
+exit=0

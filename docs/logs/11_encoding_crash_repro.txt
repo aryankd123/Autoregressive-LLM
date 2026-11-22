@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\user\OneDrive\Desktop\llms_from_scratch\gpt_from_scratch\train.py", line 332, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\user\OneDrive\Desktop\llms_from_scratch\gpt_from_scratch\train.py", line 293, in main
+    history = train(model, train_loader, val_loader, device, total_iters=args.iters,
+                    max_lr=args.lr, min_lr=args.min_lr, warmup=args.warmup, wd=args.wd,
+                    clip=args.clip, grad_accum=args.grad_accum, eval_every=args.eval_every,
+                    eval_batches=args.eval_batches, amp=args.amp, out_dir=args.out,
+                    on_eval=on_eval, extra_ckpt={"tokenizer": tokenizer_state(tok)})
+  File "C:\Users\user\OneDrive\Desktop\llms_from_scratch\gpt_from_scratch\train.py", line 163, in train
+    on_eval(model, it)
+    ~~~~~~~^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\llms_from_scratch\gpt_from_scratch\train.py", line 290, in on_eval
+    print("           sample:", repr(tok.decode(out[0].tolist())[:200]))
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\ufffd' in position 11: character maps to <undefined>
+device: CPU (Intel64 Family 6 Model 78 Stepping 3, GenuineIntel, 4 threads)
+corpus: verdict | tokenizer: bpe (V=512) | train tokens 8,422 | val tokens 903
+model: 875,264 parameters | GPTConfig(vocab_size=512, ctx_len=128, d=128, n_layers=4, n_heads=4, dropout=0.1, bias=True, flash=False)
+initial val loss 6.270  (ln V = 6.238)
+it     0 | loss 6.258 | lr 6.00e-06 | gnorm 2.38 | 545 tok/s
+           val loss 6.269 | val ppl 527.78
+           sample: 

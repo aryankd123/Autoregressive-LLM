@@ -1,0 +1,19 @@
+device: CPU (Intel64 Family 6 Model 78 Stepping 3, GenuineIntel, 4 threads)
+corpus: verdict | tokenizer: bpe (V=512) | train tokens 8,422 | val tokens 903
+model: 875,264 parameters | GPTConfig(vocab_size=512, ctx_len=128, d=128, n_layers=4, n_heads=4, dropout=0.1, bias=True, flash=False)
+initial val loss 6.270  (ln V = 6.238)
+it     0 | loss 6.258 | lr 6.00e-06 | gnorm 2.38 | 1,610 tok/s
+           val loss 6.269 | val ppl 527.78
+           sample: 'ROMEO:trou\ufffdivoo)\ufffd ey\ufffd\ufffd[\ufffdst{\ufffd\ufffd\ufffd\ufffd#ilW\ufffdgh say\ufffd\ufffd. en I th could\ufffd ever\ufffd?\ufffd\ufffd as in that that\x04ing\ufffdself\ufffd pl about on\x10ong!inde s\ufffdust up\ufffd\ufffd ab'
+           val loss 6.266 | val ppl 526.43
+           sample: 'ROMEO: squ youellid\ufffdccking hisim\ufffdew( R\ufffdkingD\x1eect\ufffd5<|endoftext|> could\ufffd_Q\ufffd thatet v l8 saidus\ufffdear:ay sS\ufffd\ufffd\ufffd<#\ufffd de\ufffdet\x0f\ufffdq~\x1difekow that\ufffd'
+it     2 | loss 6.239 | lr 1.80e-05 | gnorm 2.37 | 582 tok/s
+           val loss 6.262 | val ppl 524.23
+           sample: 'ROMEO:ectght\ufffds\ufffdx\ufffd2 they theyt The in\ufffdtld\ufffdith,"\ufffd\r\ufffdum@\x10\ufffdT\'s: st y\ufffdou\ufffd\ufffd\ufffd]@\ufffd picturender .\ufffd> su dis li li\ufffdway\ufffdro c\ufffdessessingainain'
+
+final val loss 6.262 | val ppl 524.23 | 0.1 min
+sample:
+ROMEO:ectortrouell( j\ufffd\ufffd J
+ rH uect\ufffd\ufffd aboutCble\ufffd to\ufffd\ufffd it\ufffd\ufffd hadke't\ufffd Jife% ey\ufffdH\ufffd e . not&Must int onelctld u_ureureil ever M1\ufffds A\ufffd pl by h\ufffd^stife\ufffd\ufffdOumoutctMse me2$ B\ufffdurd pl st2 ey\ufffd\ufffd for r ey\ufffdith su my:\ufffdxee k\ufffding n\ufffd\ufffd\ufffd you\ufffdt\ufffd\ufffd\ufffd\ufffdent\ufffdearentlking}ig\ufffdickFMrainFon whendd f M\ufffdF b she\ufffdigig see?"ingm thatking pl butddway\ufffd notselfFke b jood\ufffdainourererroingitau shhat suentuigelligent R couldam had they5\ufffdu R\ufffd they theyj that an seeig
+
+wrote runs/encoding_repro/summary.json, log.csv, loss_curve.png, best.pt, last.pt

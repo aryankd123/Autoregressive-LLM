@@ -1,0 +1,13 @@
+
+test_part6_training.py
+  PASS  test_adam_steps_match_hand_computed_and_torch  (3.49s)
+  PASS  test_adamw_decoupled_decay_step  (0.00s)
+  PASS  test_cross_entropy_example_and_gradient  (0.00s)
+  PASS  test_global_norm_clipping  (0.00s)
+  PASS  test_gradient_accumulation_equals_big_batch  (0.03s)
+  PASS  test_lr_schedule_values  (0.00s)
+  PASS  test_model_can_overfit_one_batch  (2.92s)
+  PASS  test_no_weight_decay_on_biases_and_layernorm  (0.00s)
+  PASS  test_two_layer_backward_by_hand  (0.00s)
+
+9 passed, 0 failed

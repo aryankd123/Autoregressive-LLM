@@ -1,0 +1,10 @@
+
+test_part3_attention.py
+  PASS  test_attention_weights_and_output_match_hand_computed  (0.00s)
+  PASS  test_hand_backward_equals_autograd  (0.01s)
+  PASS  test_mask_with_zero_instead_of_minus_inf_would_leak  (0.00s)
+  PASS  test_projections_and_scores  (0.00s)
+  PASS  test_scaling_keeps_score_variance_near_one  (0.05s)
+  PASS  test_softmax_backward_numeric_check  (0.00s)
+
+6 passed, 0 failed

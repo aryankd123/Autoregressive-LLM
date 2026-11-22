@@ -1,0 +1,112 @@
+device: CPU (Intel64 Family 6 Model 78 Stepping 3, GenuineIntel, 4 threads)
+corpus: tinyshakespeare | tokenizer: bpe (V=4,096) | train tokens 307,607 | val tokens 38,425
+model: 1,334,016 parameters | GPTConfig(vocab_size=4096, ctx_len=128, d=128, n_layers=4, n_heads=4, dropout=0.1, bias=True, flash=False)
+initial val loss 8.319  (ln V = 8.318)
+it     0 | loss 8.326 | lr 6.00e-06 | gnorm 2.97 | 2,919 tok/s
+           val loss 8.314 | val ppl 4079.94
+           sample: 'ROMEO: were face change sil sil follbbPRINCEched disgrace disgracer1 They threat kindnessgainstunkletind ServingonouncePAR art\ufffd children haveMIL] tendMyoof friendsheeied conohem profess youtheldt drin'
+it    50 | loss 7.120 | lr 3.06e-04 | gnorm 1.64 | 2,397 tok/s
+it   100 | loss 5.984 | lr 6.00e-04 | gnorm 0.90 | 2,636 tok/s
+it   150 | loss 5.612 | lr 5.99e-04 | gnorm 1.17 | 2,750 tok/s
+it   200 | loss 5.271 | lr 5.96e-04 | gnorm 0.68 | 2,805 tok/s
+it   250 | loss 5.235 | lr 5.92e-04 | gnorm 0.73 | 2,842 tok/s
+           val loss 5.368 | val ppl 214.45
+           sample: "ROMEO:\n\nMy he I, that; the my lord.\nI'll be all thy man,\nA vcor.\nNo, it for no good the lord, a poor my love.\n\n\nTo we'll as will not a the grace,\n\n\n\nBut,"
+it   300 | loss 5.091 | lr 5.85e-04 | gnorm 0.72 | 2,831 tok/s
+it   350 | loss 4.803 | lr 5.77e-04 | gnorm 0.83 | 2,864 tok/s
+it   400 | loss 4.927 | lr 5.67e-04 | gnorm 0.71 | 2,890 tok/s
+it   450 | loss 4.837 | lr 5.56e-04 | gnorm 0.94 | 2,914 tok/s
+it   500 | loss 4.934 | lr 5.43e-04 | gnorm 0.96 | 2,936 tok/s
+           val loss 5.136 | val ppl 170.03
+           sample: "ROMEO:\nThis, that is, and I'll\nAnd I have I may not be to me, I did.\n\nAy, I cannot make us be not I could I do it in your lord,\n\nThat to the gods,\nAnd it,\nI'll be make me speak"
+it   550 | loss 4.839 | lr 5.29e-04 | gnorm 0.71 | 2,918 tok/s
+it   600 | loss 4.774 | lr 5.13e-04 | gnorm 0.73 | 2,930 tok/s
+it   650 | loss 4.795 | lr 4.96e-04 | gnorm 0.90 | 2,894 tok/s
+it   700 | loss 4.669 | lr 4.78e-04 | gnorm 0.78 | 2,875 tok/s
+it   750 | loss 4.678 | lr 4.59e-04 | gnorm 0.84 | 2,886 tok/s
+           val loss 5.002 | val ppl 148.76
+           sample: "ROMEO:\nFor your father's sake.\n\n\nLUCIO:\nI'll bear you shall hear the city is so?\nO, we pray us this so, and that he!\n\nGLOUCESTER:\nI'll know not the world's my heart and the\nThis will not the man."
+it   800 | loss 4.560 | lr 4.38e-04 | gnorm 0.79 | 2,879 tok/s
+it   850 | loss 4.612 | lr 4.18e-04 | gnorm 0.83 | 2,889 tok/s
+it   900 | loss 4.506 | lr 3.96e-04 | gnorm 0.82 | 2,898 tok/s
+it   950 | loss 4.757 | lr 3.74e-04 | gnorm 0.89 | 2,907 tok/s
+it  1000 | loss 4.604 | lr 3.52e-04 | gnorm 0.95 | 2,917 tok/s
+           val loss 4.886 | val ppl 132.40
+           sample: "ROMEO:\nHe may be to her good\nAs in your son, and he,\nThan thy royal face in your life,\nAnd so for your own brother,\nAer and your father,\nAnd here's a wagy ginct of her:\nThou hast thou with my"
+it  1050 | loss 4.554 | lr 3.30e-04 | gnorm 1.08 | 2,907 tok/s
+it  1100 | loss 4.632 | lr 3.08e-04 | gnorm 0.97 | 2,913 tok/s
+it  1150 | loss 4.406 | lr 2.86e-04 | gnorm 0.94 | 2,920 tok/s
+it  1200 | loss 4.336 | lr 2.64e-04 | gnorm 1.14 | 2,924 tok/s
+it  1250 | loss 4.292 | lr 2.42e-04 | gnorm 1.10 | 2,929 tok/s
+           val loss 4.805 | val ppl 122.16
+           sample: 'ROMEO:\n\n\nProvost:\nI thank you.\n\nFirst Citizen:\nNo, no, my lord,\nAnd, I will you.\n\nLEONTES:\nWe would not, is not.\n\nMENENIUS:\nTo-bine, I speak my lord,\nWith she'
+it  1300 | loss 4.406 | lr 2.22e-04 | gnorm 1.05 | 2,923 tok/s
+it  1350 | loss 4.278 | lr 2.01e-04 | gnorm 0.99 | 2,927 tok/s
+it  1400 | loss 4.471 | lr 1.82e-04 | gnorm 1.15 | 2,933 tok/s
+it  1450 | loss 4.201 | lr 1.64e-04 | gnorm 1.04 | 2,938 tok/s
+it  1500 | loss 4.242 | lr 1.47e-04 | gnorm 0.97 | 2,943 tok/s
+           val loss 4.751 | val ppl 115.66
+           sample: "ROMEO:\nYour life,\nNo more as I knowing of my name?\n\nLEONTES:\nNo, I tell me?\n\nShepherd:\nHow'st thou that I, I knowing, sir.\n\nBRUTUS:\nNay, what you, sir.\n\nFirst Servingman"
+it  1550 | loss 4.451 | lr 1.31e-04 | gnorm 0.98 | 2,936 tok/s
+it  1600 | loss 4.436 | lr 1.17e-04 | gnorm 1.03 | 2,925 tok/s
+it  1650 | loss 4.205 | lr 1.04e-04 | gnorm 0.95 | 2,927 tok/s
+it  1700 | loss 4.223 | lr 9.25e-05 | gnorm 0.98 | 2,934 tok/s
+it  1750 | loss 4.441 | lr 8.27e-05 | gnorm 1.04 | 2,941 tok/s
+           val loss 4.723 | val ppl 112.47
+           sample: "ROMEO:\nAnd, for the queen,\nSo he is the king's death.\n\nKING RICHARD III:\nIf you will be your country'st.\n\nGLOUCESTER:\nMy lord, that should be set the noble men.\n\nKING EDWARD IV:\nWhat, you, I"
+it  1800 | loss 4.029 | lr 7.46e-05 | gnorm 0.95 | 2,938 tok/s
+it  1850 | loss 4.224 | lr 6.83e-05 | gnorm 1.00 | 2,944 tok/s
+it  1900 | loss 4.435 | lr 6.37e-05 | gnorm 1.08 | 2,948 tok/s
+it  1950 | loss 4.348 | lr 6.09e-05 | gnorm 0.91 | 2,954 tok/s
+it  1999 | loss 4.210 | lr 6.00e-05 | gnorm 1.03 | 2,959 tok/s
+           val loss 4.697 | val ppl 109.58
+           sample: "ROMEO:\nI have been the earth'st of the king,\nI am too, in once.\n\nDUKE VINCENTIO:\nThe very your good sir; and what you are as he's\nAnd but now with a little be a little cause to the more\nThe baintch's "
+
+final val loss 4.697 | val ppl 109.58 | 23.2 min
+sample:
+ROMEO:
+Baabock so; let him be the queen is off.
+
+First Servingman:
+I have't: I; let me good brother: I can do you well
+I'll call your love you.
+
+First Citizen:
+For, madam, sir; come, and with me so.
+
+DUKE VINCENTIO:
+ATH:
+I would be your highness, a word.
+
+LEONTES:
+I'll answer it.
+
+CLARENCE:
+Thou know it?
+
+DUKE VINCENTIO:
+I have seen.
+
+ISABELLA:
+I have but thou wilt tell me?
+
+CAMILLO:
+I will she, goodly, 'tis well done.
+
+CORIOLANUS:
+I'll not not.
+
+ISABELLA:
+You must not, he is a very good.
+
+CORIOLANUS:
+What, my lord.
+
+MENENIUS:
+No!
+Come:
+I do well; but I will not so?
+
+
+wrote runs/tiny_bpe/summary.json, log.csv, loss_curve.png, best.pt, last.pt
+exit=0

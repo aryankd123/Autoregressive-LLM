@@ -1,0 +1,14 @@
+token embedding (tied with head)           38,597,376
+position embedding                            786,432
+per block: LayerNorm 1                          1,536
+per block: attention qkv                    1,771,776
+per block: attention output proj              590,592
+per block: LayerNorm 2                          1,536
+per block: FFN up                           2,362,368
+per block: FFN down                         2,360,064
+one block total                             7,087,872
+12 blocks                                  85,054,464
+final LayerNorm                                 1,536
+TOTAL (tied)                              124,439,808
+TOTAL without weight tying                163,037,184
+GPT(GPTConfig()).num_params()             124,439,808
